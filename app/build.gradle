@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 
 def twaManifest = [
         applicationId              : 'com.sopan.trusted.web',
-        hostName                   : 'fir-rtdb-1654a.firebaseapp.com', // The domain being opened in the TWA.
+        hostName                   : 'your-project.firebaseapp.com', // The domain being opened in the TWA.
         launchUrl                  : '/', // The start path for the TWA. Must be relative to the domain.
         name                       : 'Trusted Web', // The name shown on the Android Launcher.
         themeColor                 : '#303F9F', // The color used for the status bar.
@@ -61,7 +61,7 @@ android {
                 "target": {
                     "namespace": "android_app",
                     "package_name": "com.sopan.trusted.web",
-                    "sha256_cert_fingerprints": ["A7:44:B2:85:64:7E:A1:94:44:8D:46:7A:AF:00:52:55:AB:F3:CB:19:0C:CF:2D:5B:37:88:7E:2E:56:2B:D9:5C"]
+                    "sha256_cert_fingerprints": ["Your-Android-Studio-Finger-Print"]
                 }
             }]"""
 

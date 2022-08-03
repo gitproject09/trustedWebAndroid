@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Trusted Web</string>
     <string name="image_chooser">Choose image</string>
-    <string name="launch_url">https://fir-rtdb-1654a.firebaseapp.com/</string>
+    <string name="launch_url">https://your-project.firebaseapp.com/</string>
 </resources>
